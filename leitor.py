@@ -3,3 +3,5 @@ v = "Vem "
 e = "Espirito "
 s = "Santo"
 print (v+e+s)
+
+# Apagar
