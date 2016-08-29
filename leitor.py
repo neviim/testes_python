@@ -1,4 +1,7 @@
-#lê os arquivos do arquivo veni.txt
-veni = open("veni.txt","r")
+#neste determina aqui mesmo
+r_arq = open('./veni.txt', 'r')
 
-veni.close()
+for linha in r_arq.readlines():
+  print linha
+  
+r_arq.close()
